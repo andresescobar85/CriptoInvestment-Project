@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #f4f7f6;
+  --card-bg: #ffffff;
+  --primary: #61DAFB;
+  --text: #2c3e50;
+  --up: #22c55e;
+  --down: #ef4444;
+}
+
+body { background-color: var(--bg-color); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; }
+
+.navbar { background: #1a202c; color: white; padding: 1rem 2rem; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.nav-logo { display: flex; align-items: center; gap: 10px; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.crypto-card {
+  background: var(--card-bg);
+  border-radius: 15px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.crypto-card:hover { transform: translateY(-8px); box-shadow: 0 12px 20px rgba(0,0,0,0.1); }
+
+.price { font-size: 2rem; font-weight: bold; margin: 10px 0; }
+.change { display: flex; align-items: center; font-weight: 600; }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+.btn-back {
+  background: none; border: 1px solid #cbd5e0; padding: 8px 16px; border-radius: 8px; cursor: pointer; margin-bottom: 20px;
+}
+
+.chart-container { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
