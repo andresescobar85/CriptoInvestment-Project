@@ -4,7 +4,7 @@ Esta plataforma es una solución Full-Stack diseñada para centralizar el monito
 🛠️ Tecnologías Utilizadas
 Frontend: React.js, Axios, Recharts (Gráficos), CSS3.
 
-Backend: Node.js, Express.js.
+Backend: Node.js.
 
 Base de Datos: MySQL 8.0+.
 
@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instalado:
 
 Node.js (v16 o superior).
 
-[enlace sospechoso eliminado] y un cliente como MySQL Workbench.
+MySQL Workbench.
 
 Una API Key de CoinMarketCap (Obtenla gratis aquí).
 
@@ -88,7 +88,5 @@ Abre http://localhost:3000 en tu navegador.
 /backend: API REST en Node.js, controladores y rutas.
 
 /frontend: Interfaz de usuario en React y componentes gráficos.
-
-/.gitignore: Archivo para excluir node_modules y el archivo .env por seguridad.
 
 .env: Plantilla para la configuración de variables de entorno.
