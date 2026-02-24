@@ -27,8 +27,10 @@ Abre tu cliente de MySQL (Workbench o Terminal).
 Copia y ejecuta el siguiente script para crear la estructura, el usuario y los permisos:
 
 SQL
+
 -- 1. Crear la base de datos y usarla
 CREATE DATABASE IF NOT EXISTS cryptoinvestment_db;
+
 USE cryptoinvestment_db;
 
 -- 2. Crear tabla Maestra de Criptomonedas
@@ -59,12 +61,16 @@ INSERT INTO cryptos (cmc_id, symbol, name, slug) VALUES
 (1027, 'ETH', 'Ethereum', 'ethereum'),
 (825, 'USDT', 'Tether', 'tether');
 🚀 2. Configuración del Proyecto
+
+
 Backend
+
+
 Navega a la carpeta del servidor: cd backend.
 
 Instala las dependencias: npm install.
 
-Crea un archivo .env basado en el archivo .env.example proporcionado:
+Modificar el archivo .env basado en el siguiente ejemplo proporcionado:
 
 Fragmento de código
 DB_HOST=localhost
@@ -73,6 +79,8 @@ DB_PASS=tu_password
 DB_NAME=cryptoinvestment_db
 CMC_API_KEY=tu_api_key_aqui
 PORT=5000
+
+
 Inicia el servidor: npm run dev.
 
 Frontend
