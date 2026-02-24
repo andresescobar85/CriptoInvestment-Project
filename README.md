@@ -60,6 +60,8 @@ INSERT INTO cryptos (cmc_id, symbol, name, slug) VALUES
 (1, 'BTC', 'Bitcoin', 'bitcoin'),
 (1027, 'ETH', 'Ethereum', 'ethereum'),
 (825, 'USDT', 'Tether', 'tether');
+
+
 🚀 2. Configuración del Proyecto
 
 
